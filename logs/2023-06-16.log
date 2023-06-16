@@ -1,0 +1,19 @@
+[2023-06-16 15:35:37] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-06-16 15:35:41] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2023-06-16 15:35:56] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connect: connection refused 将进行第 1 次重试 
+[2023-06-16 15:35:57] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connect: connection refused 将进行第 2 次重试 
+[2023-06-16 15:35:58] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connect: connection refused 将进行第 3 次重试 
+[2023-06-16 15:35:59] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"private","time":1686897356,"self_id":3058977307,"sub_type":"friend","message":"1","raw_message":"1","font":0,"sender":{"age":0,"nickname":"易燃物","sex":"unknown","user_id":965421788},"message_id":1814515059,"user_id":965421788,"target_id":3058977307}
+ 到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connect: connection refused 停止上报：已达重试上限 
+[2023-06-16 15:43:19] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2023-06-16 15:43:22] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connect: connection refused 将进行第 1 次重试 
+[2023-06-16 15:43:23] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connect: connection refused 将进行第 2 次重试 
+[2023-06-16 15:43:24] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connect: connection refused 将进行第 3 次重试 
+[2023-06-16 15:43:25] [WARNING]: 上报 Event 数据 {"post_type":"message","message_type":"private","time":1686897802,"self_id":3058977307,"sub_type":"friend","sender":{"age":0,"nickname":"易燃物","sex":"unknown","user_id":965421788},"message_id":-67791621,"user_id":965421788,"target_id":3058977307,"message":"1","raw_message":"1","font":0}
+ 到 http://127.0.0.1:5701/ 失败: Post "http://127.0.0.1:5701/": dial tcp 127.0.0.1:5701: connect: connection refused 停止上报：已达重试上限 
+[2023-06-16 15:43:25] [ERROR]: Protocol -> parse incoming packet error: session expired 
+[2023-06-16 15:43:25] [WARNING]: Bot已离线: session expired 
+[2023-06-16 15:43:28] [WARNING]: 将在 5 秒后尝试重连. 重连次数：2/0 
+[2023-06-16 15:43:33] [WARNING]: 尝试重连... 
+[2023-06-16 15:43:34] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-06-16 15:43:53] [ERROR]: Protocol -> unexpected disconnect: EOF 
